@@ -2,7 +2,7 @@
 Documentation       Suite para exemplificar o uso de LOGs nos testes
 ...                 Os LOGs são de grande utilidade, faça LOGs para analisar como seu teste está sendo executado nas entrelinhas
 ...                 Os LOGs te ajudam a achar falhas na automação dos seus testes
-...                 Use LOGs sem moderação!
+...                 Use LOGs sem moderação!         # ... <-- servem como continuação da Documentation ou outra informação.
 Library             SeleniumLibrary
 
 ***Variables***
