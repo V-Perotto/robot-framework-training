@@ -2,6 +2,7 @@
 Resource            ../resources/Resource.robot
 Resource            ../resources/PO/Home.robot
 Resource            ../resources/PO/Carrinho.robot
+Resource            ../resources/PO/Cadastro.robot
 Test Setup          Abrir navegador
 Test Teardown       Fechar navegador
 
@@ -14,6 +15,7 @@ Caso de Teste com PO 01: Remover Produtos do Carrinho
 
 ## EXERCÍCIO
 Caso de Teste com PO 02: Adicionar Cliente
+    # tanto Home. ou Cadastro. significam que essas keywords existem nos correspondentes arquivos .robot
     Home.Acessar a página home do site
     Cadastro.Clicar em "Sign in"
     Cadastro.Informar um e-mail válido
