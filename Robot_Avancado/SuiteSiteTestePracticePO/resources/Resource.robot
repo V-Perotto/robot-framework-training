@@ -1,8 +1,8 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library         SeleniumLibrary
 
 *** Variables ***
-${BROWSER}      chrome
+${BROWSER}      firefox
 
 *** Keywords ***
 #### Setup e Teardown
